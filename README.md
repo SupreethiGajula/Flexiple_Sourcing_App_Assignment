@@ -59,26 +59,32 @@ Local Candidate Filtering      |
                    v
              Final Shortlist
 ```
-##Tech Stack
+## Tech Stack
 
-#Frontend
+### Frontend
 
-React
-Vite
-JavaScript
-CSS
-#Backend
-Node.js
-Express.js
-CORS
-dotenv
-AI
-Google Gemini API
-@google/genai
-Data
-JSON candidate dataset containing 48 profiles
+- React
+- Vite
+- JavaScript
+- CSS
 
-##Project Structure
+### Backend
+
+- Node.js
+- Express.js
+- CORS
+- dotenv
+
+### AI
+
+- Google Gemini API
+- `@google/genai`
+
+### Data
+
+- JSON candidate dataset containing 48 profiles
+
+## Project Structure
 
 ```
 flexiple-assignment/
@@ -101,9 +107,9 @@ flexiple-assignment/
 │
 └── README.md
 ```
-##Getting Started
+## Getting Started
 
-#Prerequisites
+# Prerequisites
 
 Node.js installed
 A Google Gemini API key
@@ -164,7 +170,7 @@ Recruiter feedback
 
 The LLM uses the feedback to refine the search criteria and the candidates are filtered and ranked again.
 
-##Key Design Decisions
+## Key Design Decisions
 Objective filtering is performed locally
 
 The LLM interprets the recruiter's requirement and produces structured filters, but JavaScript performs the actual filtering against the candidate dataset.
