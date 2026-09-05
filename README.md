@@ -233,7 +233,7 @@ Gemini then adjusts the search criteria/rubric while preserving requirements tha
 
 The candidates are filtered and ranked again.
 
-##Assumptions and Trade-offs
+## Assumptions and Trade-offs
 The provided 48-profile dataset is treated as the complete candidate pool.
 Objective requirements are hard filters.
 Preferences are handled through the scoring rubric.
@@ -242,7 +242,7 @@ The final "Freeze Search" action prevents further refinement during the current 
 Candidate ranking is LLM-based, so ranking explanations and scores may vary between runs.
 Future Improvements
 
-##If this were extended into a production system, possible improvements would include:
+## If this were extended into a production system, possible improvements would include:
 
 Persistent recruiter/search history
 Candidate profile pages
