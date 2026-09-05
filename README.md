@@ -76,6 +76,7 @@ Google Gemini API
 Data
 JSON candidate dataset containing 48 profiles
 ##Project Structure
+```
 flexiple-assignment/
 │
 ├── client/
@@ -95,6 +96,7 @@ flexiple-assignment/
 │   
 │
 └── README.md
+```
 ##Getting Started
 #Prerequisites
 Node.js installed
