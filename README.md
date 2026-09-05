@@ -19,6 +19,7 @@ The application helps recruiters refine candidate searches through an interactiv
 
 ## Architecture
 
+```text
 Recruiter Requirement
         |
         v
@@ -57,14 +58,14 @@ Local Candidate Filtering      |
                    |
                    v
              Final Shortlist
-
-Tech Stack
-Frontend
+```
+##Tech Stack
+#Frontend
 React
 Vite
 JavaScript
 CSS
-Backend
+#Backend
 Node.js
 Express.js
 CORS
@@ -74,7 +75,7 @@ Google Gemini API
 @google/genai
 Data
 JSON candidate dataset containing 48 profiles
-Project Structure
+##Project Structure
 flexiple-assignment/
 │
 ├── client/
@@ -94,8 +95,8 @@ flexiple-assignment/
 │   
 │
 └── README.md
-Getting Started
-Prerequisites
+##Getting Started
+#Prerequisites
 Node.js installed
 A Google Gemini API key
 1. Clone the repository
@@ -155,7 +156,7 @@ Recruiter feedback
 
 The LLM uses the feedback to refine the search criteria and the candidates are filtered and ranked again.
 
-Key Design Decisions
+##Key Design Decisions
 Objective filtering is performed locally
 
 The LLM interprets the recruiter's requirement and produces structured filters, but JavaScript performs the actual filtering against the candidate dataset.
@@ -218,7 +219,7 @@ Gemini then adjusts the search criteria/rubric while preserving requirements tha
 
 The candidates are filtered and ranked again.
 
-Assumptions and Trade-offs
+##Assumptions and Trade-offs
 The provided 48-profile dataset is treated as the complete candidate pool.
 Objective requirements are hard filters.
 Preferences are handled through the scoring rubric.
@@ -227,7 +228,7 @@ The final "Freeze Search" action prevents further refinement during the current 
 Candidate ranking is LLM-based, so ranking explanations and scores may vary between runs.
 Future Improvements
 
-If this were extended into a production system, possible improvements would include:
+##If this were extended into a production system, possible improvements would include:
 
 Persistent recruiter/search history
 Candidate profile pages
