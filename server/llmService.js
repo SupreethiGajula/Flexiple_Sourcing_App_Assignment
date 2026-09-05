@@ -38,7 +38,8 @@ Rules:
 - Extract only objective requirements that are explicitly stated or clearly implied.
 - Do not invent requirements.
 - location should contain cities/locations.
-- skills should contain required technical skills.
+- skills should contain only specific technical skills, technologies, frameworks, databases, cloud services, or tools.
+- Do not include job roles such as "backend engineer", "frontend engineer", "software engineer", etc. as skills.
 - company_types can contain only: startup, scaleup, enterprise, agency.
 - If minimum or maximum experience is not specified, use null.
 - Rubric weights must add up to 1.
