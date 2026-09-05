@@ -60,7 +60,9 @@ Local Candidate Filtering      |
              Final Shortlist
 ```
 ##Tech Stack
+
 #Frontend
+
 React
 Vite
 JavaScript
@@ -75,7 +77,9 @@ Google Gemini API
 @google/genai
 Data
 JSON candidate dataset containing 48 profiles
+
 ##Project Structure
+
 ```
 flexiple-assignment/
 │
@@ -98,7 +102,9 @@ flexiple-assignment/
 └── README.md
 ```
 ##Getting Started
+
 #Prerequisites
+
 Node.js installed
 A Google Gemini API key
 1. Clone the repository
